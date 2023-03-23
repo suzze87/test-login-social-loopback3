@@ -1,0 +1,47 @@
+{
+  "name": "user",
+  "plural": "users",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "nameFb": {
+      "type": "string",
+      "required": false
+    },
+    "nameGg": {
+      "type": "string",
+      "required": false
+    },
+    "avatar": {
+      "type": "string",
+      "required": false
+    },
+    "avatarFb": {
+      "type": "string",
+      "required": false
+    },
+    "avatarGg": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
